@@ -21,6 +21,12 @@ ReactDOM.render(
       tel="+123 456 789"
       email="b@beyonce.com"
     />
+    <Card
+      name="Priyanka Chopra"
+      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_TJ0AqGjaxsrjIGwn0ZKgBPsSeZ1SMj0fw&usqp=CAU"
+      tel="+1-912-8520-323"
+      email="@purplepebblepictures.com"
+    />
   </div>,
   document.getElementById('root')
 )
