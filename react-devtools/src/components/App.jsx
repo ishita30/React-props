@@ -1,11 +1,12 @@
-import React from "react";
-import Card from "./Card";
-import contacts from "../contacts";
+import React from 'react'
+import Card from './Card'
+import contacts from '../contacts'
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Avatar />
 
       <Card
         name={contacts[0].name}
@@ -26,7 +27,7 @@ function App() {
         email={contacts[2].email}
       />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
