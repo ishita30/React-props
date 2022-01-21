@@ -18,6 +18,10 @@ console.log(newNumbers)
 
 //Filter - Create a new array by keeping the items that return true.
 
+const newNumbers = numbers.filter(function (num) {
+  return num > 10
+})
+
 //Reduce - Accumulate a value by doing something to each item in an array.
 
 //Find - find the first item that matches from an array.
